@@ -1,0 +1,14 @@
+# PlatformIO (builds, dépendances téléchargées et cache)
+.pio/
+firmware/.pio/
+
+# VS Code (fichiers générés automatiquement en local)
+.vscode/c_cpp_properties.json
+.vscode/.browse.VC.db*
+.vscode/ipch/
+
+# Fichiers temporaires et système
+*.tmp
+*.bak
+Thumbs.db
+.DS_Store

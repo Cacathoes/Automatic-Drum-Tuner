@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "author": "Automatic Drum Tuner",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-uno", "id": "uno", "top": 0, "left": 0, "attrs": {} },
+    { "type": "wokwi-hx711", "id": "hx711", "top": -120, "left": 220, "attrs": {} }
+  ],
+  "connections": [
+    [ "uno:8", "hx711:DT", "green", [] ],
+    [ "uno:9", "hx711:SCK", "yellow", [] ],
+    [ "uno:5V", "hx711:VCC", "red", [] ],
+    [ "uno:GND", "hx711:GND", "black", [] ]
+  ]
+}
